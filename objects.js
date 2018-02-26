@@ -1,4 +1,4 @@
-var playlist = {'arti1' : 'player1', 'arti2' : 'player2'}
+var playlist = {Kanye: "Gold Digger"}
 
 function updatePlaylist(playlist, artistName, songTitle){
   return Object.assign({},playlist,{[artistName] : songTitle})
